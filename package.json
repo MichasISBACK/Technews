@@ -1,0 +1,27 @@
+{
+  "name": "newstech-sistema",
+  "version": "1.0.0",
+  "description": "Backend server for Newstech system",
+  "main": "backend-server.js",
+  "scripts": {
+    "start": "node backend-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^12.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9"
+  }
+}
