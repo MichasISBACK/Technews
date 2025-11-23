@@ -1,0 +1,21 @@
+{
+  "name": "technews-server",
+  "version": "1.0.0",
+  "description": "Backend server for Tech News",
+  "main": "backend-server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node backend-server.js",
+    "dev": "node backend-server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^2.7.0"
+  }
+}
